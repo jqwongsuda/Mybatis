@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace 是确定该方法是在哪个dao接口-->
+<!-- id是指的是哪个方法 -->
+<!-- 这两个就组成了某个dao接口中的某个固定方法-->
+<mapper namespace="com.itheima.dao.IUserDao">
+    <select id="findAll" resultType="com.itheima.domain.User">
+        select * from user
+    </select>
+<!--    保存标签-->
+    <insert id="saveUser" parameterType="com.itheima.domain.User">
+        insert into user(username,address,sex,birthday)values(#{username},#{address},#{sex},#{birthday});
+    </insert>
+<!--    更新用户-->
+    <update id="updateUser" parameterType="com.itheima.domain.User">
+        update user set username=#{username},address=#{address},sex=#{sex},birthday=#{birthday} where id=#{id};
+    </update>
+<!--    删除用户-->
+    <delete id="deleteUser" parameterType="Integer">
+        delete from user where id=#{id};
+    </delete>
+<!--    根据id查询用户-->
+    <select id="findById" parameterType="Integer" resultType="com.itheima.domain.User">
+        select * from user where id = #{id};
+    </select>
+<!--    根据名称模糊查询-->
+    <select id="findByName" parameterType="string" resultType="com.itheima.domain.User">
+        select * from user where name like #{username};
+    </select>
+</mapper>
