@@ -32,6 +32,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../day01_easy_01mybatis" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -86,6 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1566490163660</updated>
       <workItem from="1566490165135" duration="4976000" />
+      <workItem from="1567692583253" duration="649000" />
     </task>
     <servers />
   </component>
@@ -97,7 +99,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

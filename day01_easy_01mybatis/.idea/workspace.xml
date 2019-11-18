@@ -32,6 +32,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -78,6 +79,7 @@
       <workItem from="1565798165660" duration="1251000" />
       <workItem from="1565882275812" duration="6630000" />
       <workItem from="1566398789951" duration="3741000" />
+      <workItem from="1567692811314" duration="954000" />
     </task>
     <servers />
   </component>

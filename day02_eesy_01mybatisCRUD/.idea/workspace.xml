@@ -58,23 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest.findByName">
-    <configuration name="MybatisTest.findById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day02_eesy_01mybatisCRUD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.itheima.test" />
-      <option name="MAIN_CLASS_NAME" value="com.itheima.test.MybatisTest" />
-      <option name="METHOD_NAME" value="findById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MybatisTest.testSave">
     <configuration name="MybatisTest.findByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day02_eesy_01mybatisCRUD" />
       <extension name="coverage">
@@ -91,7 +75,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MybatisTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day02_eesy_01mybatisCRUD" />
       <extension name="coverage">
         <pattern>
@@ -101,7 +85,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.itheima.test" />
       <option name="MAIN_CLASS_NAME" value="com.itheima.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testDelete" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testFindByVo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day02_eesy_01mybatisCRUD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testFindByVo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisTest.findByName" />
-        <item itemvalue="JUnit.MybatisTest.findById" />
-        <item itemvalue="JUnit.MybatisTest.testDelete" />
-        <item itemvalue="JUnit.MybatisTest.testUpdate" />
         <item itemvalue="JUnit.MybatisTest.testSave" />
+        <item itemvalue="JUnit.MybatisTest.testFindAll" />
+        <item itemvalue="JUnit.MybatisTest.testFindByVo" />
+        <item itemvalue="JUnit.MybatisTest.testUpdate" />
+        <item itemvalue="JUnit.MybatisTest.findByName" />
       </list>
     </recent_temporary>
   </component>
@@ -160,6 +160,10 @@
       <option name="presentableId" value="Default" />
       <updated>1566915663152</updated>
       <workItem from="1566915667886" duration="8628000" />
+      <workItem from="1567693244806" duration="945000" />
+      <workItem from="1568043594038" duration="6067000" />
+      <workItem from="1568649349107" duration="67000" />
+      <workItem from="1568649856247" duration="9817000" />
     </task>
     <servers />
   </component>
@@ -171,7 +175,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace 是确定该方法是在哪个dao接口-->
+<!-- id是指的是哪个方法 -->
+<!-- 这两个就组成了某个dao接口中的某个固定方法-->
+<mapper namespace="com.itheima.dao.IUserDao">
+<!--    <resultMap id="userMap" type="com.itheima.domain.User">-->
+<!--        &lt;!&ndash; 主键字段的对应 &ndash;&gt;-->
+<!--        <id property="userId" column="id"></id>-->
+<!--        &lt;!&ndash; 非主键字段的对应 &ndash;&gt;-->
+<!--        <result property="userName" column="username"></result>-->
+<!--        <result property="userAddress" column="address"></result>-->
+<!--        <result property="userSex" column="sex"></result>-->
+<!--        <result property="userBirthday" column="birthday"></result>-->
+
+<!--    </resultMap>-->
+
+    <select id="findAll" resultType="user">-- 这种开发效率高
+<!--    <select id="findAll" resultType="com.itheima.domain.User"> 这种运行效率高-->
+        select * from user
+    </select>
+
+
+<!--    根据id查询用户-->
+    <select id="findById" parameterType="Integer" resultType="user">
+        select * from user where id = #{id};
+    </select>
+</mapper>
